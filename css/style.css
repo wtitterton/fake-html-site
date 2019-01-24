@@ -329,7 +329,7 @@ a {
 .heading-primary {
   font-size: 5rem;
   font-weight: 700;
-  line-height: 5.5rem; }
+  line-height: 5.2rem; }
 
 .heading--white {
   color: #fff; }
@@ -388,11 +388,17 @@ a {
   padding: 1.2rem 2rem;
   border-radius: 10px;
   font-size: 2rem;
-  display: inline-block; }
+  display: inline-block;
+  cursor: pointer; }
 
 .btn--primary {
   color: #fff;
-  background: #FFA000; }
+  background: #FFA000;
+  transition: transform .4s ease; }
+  .btn--primary:hover {
+    transform: translateY(-2px); }
+  .btn--primary:active {
+    transform: translateY(0); }
 
 .feature {
   z-index: 1; }
