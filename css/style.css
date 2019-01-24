@@ -2090,7 +2090,10 @@ html {
       font-size: 1.8rem;
       text-decoration: none;
       color: #3C2F19;
-      padding: 1rem; }
+      padding: 1rem;
+      transition: color .6s ease; }
+    .main-nav__items li a:hover {
+      color: #D6D6D6; }
 
 @media only screen and (max-width: 768px) {
   .main-nav {
@@ -2098,10 +2101,10 @@ html {
     display: inline-block;
     width: 100%;
     padding: 2rem;
-    max-height: 0;
+    max-height: 0px;
     overflow: hidden;
     padding: 0;
-    transition: max-height .3s ease; }
+    transition: max-height .8s ease; }
     .main-nav__items li {
       display: block;
       margin-bottom: 1rem;

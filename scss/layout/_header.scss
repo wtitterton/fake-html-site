@@ -39,7 +39,12 @@
          text-decoration: none;
          color:$brown;
          padding: 1rem;
+         transition:color .6s ease;
+        }
 
+        li a:hover
+        {
+            color:$grey-2;
         }
     }
 }
@@ -51,16 +56,17 @@
       display: inline-block;
       width:100%;
       padding:2rem;
-      max-height: 0;
+      max-height: 0px;
       overflow: hidden;
       padding: 0;
-      transition: max-height .3s ease;
+      transition: max-height .8s ease;
       &__items li
       {
           display: block;
           margin-bottom:1rem;
           text-align: center;
       }
+
 
       & nav
       {
