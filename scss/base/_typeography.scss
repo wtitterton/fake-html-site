@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+
+.heading-banner
+{
+    font-size: 7rem;
+    font-weight: 500;
+    line-height: 7.4rem;
+}
+
+.heading-primary
+{
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 5.5rem;
+}
+
+.heading--white
+{
+    color:#fff;
+}
+
+.heading-brown
+{
+    color:$brown;
+}
+
+.p-md
+{
+    font-size: 2rem;
+    
+}
+
+.p-lg
+{
+    
+    font-size: 3.5rem;
+    line-height: 3.6rem
+}
+
+.font-light
+{
+    font-weight: 200;
+}
+
+.color-white
+{
+    color:#fff;
+}
+
+.stand-out--orange
+{
+    color:$orange;
+    font-weight: bold;
+}
+
+.stand-out--brown
+{
+    color:$brown;
+    font-weight: bold;
+}

@@ -1,0 +1,75 @@
+.home-banner
+{
+    background-image: url(../imgs/Webathon_lumberjack_man.png);
+    min-height:650px;
+    background-size: cover;
+    background-position: center;
+    &__content
+    {
+        position: absolute;
+        top:50%;
+        transform: translateY(-50%);
+    }
+}
+
+.section-features
+{
+   
+    background:$grey-1;
+    margin-top:-100px;
+    .row
+    {
+        max-width:800px;
+        margin:0 auto;
+    }
+    
+}
+
+.section-output
+{
+    background:$grey-1;
+   padding:15rem 0 10rem 0 ;
+}
+
+.section-earn-respect
+{
+    background:$grey-2;
+    padding:7rem 0;
+}
+
+.content-right
+{
+    text-align: right;
+
+}
+
+.section-follow-your-dreams
+{
+    padding: 7rem 0;
+    background:$grey-1;
+}
+
+@media screen and (max-width:768px){
+    .content-right
+    {
+        text-align: left
+    }
+
+    .section-features,.section-earn-respect
+    {
+        padding:4rem 0;
+        margin:0;
+    }
+
+    .section-output
+    {
+        margin:0;
+        padding:0 0 4rem;;
+        
+    }
+}
+
+
+
+
+

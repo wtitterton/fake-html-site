@@ -1,0 +1,82 @@
+.main-header
+{
+    padding:2rem 0;
+}
+
+.menu-toggle
+{
+    font-size: 2rem;
+    text-decoration: none;
+    color:$brown;
+    position: absolute;
+    top:15px;
+    right:15px;
+    display: none;
+}
+
+.main-nav
+{
+    position: absolute;
+    right:0;
+    top:15px;
+    &__items
+    {
+        list-style: none;
+        margin: 0;
+        padding:0;
+
+        li
+        {
+            display: inline-block;
+            
+        }
+
+        li a,
+        li a:active,
+        li a:visited
+        {
+         font-size: 1.8rem;
+         text-decoration: none;
+         color:$brown;
+         padding: 1rem;
+
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+  .main-nav
+  {
+      position: static;
+      display: inline-block;
+      width:100%;
+      padding:2rem;
+      max-height: 0;
+      overflow: hidden;
+      padding: 0;
+      transition: max-height .3s ease;
+      &__items li
+      {
+          display: block;
+          margin-bottom:1rem;
+          text-align: center;
+      }
+
+      & nav
+      {
+          padding:4rem 0 0 0;
+      }
+      
+
+      &.open
+      {
+          max-height:800px;
+         
+      }
+  }
+
+  .menu-toggle
+  {
+      display: block;
+  }
+}
